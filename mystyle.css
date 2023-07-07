@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 1px;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+p {
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    margin-left: 20px;
+    text-align: justify;
+
+  }
+
+.main-header {
+    color:red;
+    font-family: "Monaco", monospace;
+}
+
+.sub-heading {
+    color: darkorange;
+    font-family: "Lucida Console", monospace;
+    margin-left: 15px;
+    
+
+}
+
+body {
+    background-color: bisque;
+}
+
+img {
+    border-radius: 20px;
+    border: 2px solid #b97318;
+    width: 550px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+    
+}
+
+
+
+ol {
+    color: tomato;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    text-align: justify;
+}
+
+ul {
+    color: cadetblue;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    text-align: justify;
+}
+
+h2 {
+    margin-bottom: 20px;
+    margin-left: 35px;
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+    font-size: smaller;
+}
+
+footer{
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto; /* Creates a 2-column grid */
+    grid-template-rows: repeat(2, auto); /* Creates 5 rows */
+    gap: 10px; /* Adds spacing between grid items */
+  }
+  
+  .grid-item {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .route-name {
+    font-weight: bold;
+  }
+  
+  .grade {
+    color: #666666;
+  }
